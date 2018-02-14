@@ -1,0 +1,990 @@
+************* Module django.contrib.admin.filters
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/filters.py:117: [W0223(abstract-method), FieldListFilter] Method 'choices' is abstract in class 'ListFilter' but is not overridden
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/filters.py:117: [W0223(abstract-method), FieldListFilter] Method 'expected_parameters' is abstract in class 'ListFilter' but is not overridden
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/filters.py:163: [R0902(too-many-instance-attributes), RelatedFieldListFilter] Too many instance attributes (8/7)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/filters.py:399: [W0612(unused-variable), AllValuesFieldListFilter.__init__] Unused variable 'reverse_path'
+************* Module django.contrib.admin.checks
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/checks.py:814: [C0330(bad-continuation), ] Wrong continued indentation (remove 2 spaces).
+                    obj.list_display_links is not None):
+                  | ^
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/checks.py:1: [C0302(too-many-lines), ] Too many lines in module (986/500)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/checks.py:46: [W0703(broad-except), check_dependencies] Catching too general exception Exception
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/checks.py:161: [R0911(too-many-return-statements), BaseModelAdminChecks._check_fieldsets_item] Too many return statements (7/6)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/checks.py:603: [R0911(too-many-return-statements), ModelAdminChecks._check_list_display_item] Too many return statements (7/6)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/checks.py:668: [E1101(no-member), ModelAdminChecks._check_list_display_links] Method 'get_list_display' has no '__code__' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/checks.py:700: [R0911(too-many-return-statements), ModelAdminChecks._check_list_filter_item] Too many return statements (7/6)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/checks.py:957: [W0622(redefined-builtin), must_be] Redefining built-in 'type'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/checks.py:957: [W0622(redefined-builtin), must_be] Redefining built-in 'id'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/checks.py:967: [W0622(redefined-builtin), must_inherit_from] Redefining built-in 'id'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/checks.py:977: [W0622(redefined-builtin), refer_to_missing_field] Redefining built-in 'id'
+************* Module django.contrib.admin.options
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:330: [W0511(fixme), ] TODO: this should be handled by some parameter to the ChangeList.
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1017: [W0511(fixme), ] FIXME - this should check if form or formsets have a FileField,
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:246: [C0325(superfluous-parens), ] Unnecessary parens after 'in' keyword
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1: [C0302(too-many-lines), ] Too many lines in module (2002/500)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:7: [W0622(redefined-builtin), ] Redefining built-in 'reduce'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:159: [E1101(no-member), BaseModelAdmin.formfield_for_dbfield] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:168: [E1101(no-member), BaseModelAdmin.formfield_for_dbfield] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:207: [E1101(no-member), BaseModelAdmin.get_field_queryset] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:220: [E1101(no-member), BaseModelAdmin.formfield_for_foreignkey] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:245: [E1101(no-member), BaseModelAdmin.formfield_for_manytomany] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:269: [E1102(not-callable), BaseModelAdmin.get_view_on_site_url] self.view_on_site is not callable
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:284: [E1101(no-member), BaseModelAdmin.get_empty_value_display] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:329: [E1101(no-member), BaseModelAdmin.get_queryset] Instance of 'BaseModelAdmin' has no 'model' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:339: [E1101(no-member), BaseModelAdmin.lookup_allowed] Instance of 'BaseModelAdmin' has no 'model' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:377: [E1101(no-member), BaseModelAdmin.lookup_allowed] Instance of 'BaseModelAdmin' has no 'date_hierarchy' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:378: [E1101(no-member), BaseModelAdmin.lookup_allowed] Instance of 'BaseModelAdmin' has no 'list_filter' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:336: [R0912(too-many-branches), BaseModelAdmin.lookup_allowed] Too many branches (13/12)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:392: [E1101(no-member), BaseModelAdmin.to_field_allowed] Instance of 'BaseModelAdmin' has no 'model' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:413: [E1101(no-member), BaseModelAdmin.to_field_allowed] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:437: [E1101(no-member), BaseModelAdmin.has_add_permission] Instance of 'BaseModelAdmin' has no 'opts' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:452: [E1101(no-member), BaseModelAdmin.has_change_permission] Instance of 'BaseModelAdmin' has no 'opts' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:467: [E1101(no-member), BaseModelAdmin.has_delete_permission] Instance of 'BaseModelAdmin' has no 'opts' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:482: [E1101(no-member), BaseModelAdmin.has_module_permission] Instance of 'BaseModelAdmin' has no 'opts' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:631: [E1101(no-member), ModelAdmin.get_form] Class 'ModelForm' has no 'declared_fields' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:713: [W0622(redefined-builtin), ModelAdmin.log_addition] Redefining built-in 'object'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:729: [W0622(redefined-builtin), ModelAdmin.log_change] Redefining built-in 'object'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:745: [W0622(redefined-builtin), ModelAdmin.log_deletion] Redefining built-in 'object'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:787: [E1101(no-member), ModelAdmin.get_actions] Class 'ModelAdmin' has no 'mro' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:795: [W0141(bad-builtin), ModelAdmin.get_actions] Used builtin function 'filter'. Using a list comprehension can be clearer.
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:798: [R0204(redefined-variable-type), ModelAdmin.get_actions] Redefinition of actions type from list to collections.OrderedDict
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:805: [W0102(dangerous-default-value), ModelAdmin.get_action_choices] Dangerous default value BLANK_CHOICE_DASH (__builtin__.list) as argument
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:811: [W0612(unused-variable), ModelAdmin.get_action_choices] Unused variable 'func'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1042: [R0914(too-many-locals), ModelAdmin.response_add] Too many local variables (16/15)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1410: [R0914(too-many-locals), ModelAdmin._changeform_view] Too many local variables (23/15)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1410: [R0912(too-many-branches), ModelAdmin._changeform_view] Too many branches (18/12)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1410: [R0915(too-many-statements), ModelAdmin._changeform_view] Too many statements (55/50)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1514: [R0914(too-many-locals), ModelAdmin.changelist_view] Too many local variables (29/15)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1534: [R0204(redefined-variable-type), ModelAdmin.changelist_view] Redefinition of list_display type from tuple to list
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1514: [R0911(too-many-return-statements), ModelAdmin.changelist_view] Too many return statements (7/6)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1514: [R0912(too-many-branches), ModelAdmin.changelist_view] Too many branches (26/12)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1514: [R0915(too-many-statements), ModelAdmin.changelist_view] Too many statements (75/50)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1692: [R0914(too-many-locals), ModelAdmin._delete_view] Too many local variables (19/15)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py:1862: [E1135(unsupported-membership-test), InlineModelAdmin.media] Value 'self.classes' doesn't support membership test
+************* Module django.contrib.admin.utils
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:291: [C0330(bad-continuation), ] Wrong continued indentation (remove 2 spaces).
+                hasattr(model_admin, name) and
+              | ^
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:292: [C0330(bad-continuation), ] Wrong continued indentation (remove 2 spaces).
+                not name == '__str__' and
+              | ^
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:293: [C0330(bad-continuation), ] Wrong continued indentation (remove 2 spaces).
+                not name == '__unicode__'):
+              | ^
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:1: [C0302(too-many-lines), ] Too many lines in module (544/500)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:78: [C0200(consider-using-enumerate), quote] Consider using enumerate instead of iterating with range and len
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:91: [W0622(redefined-builtin), unquote] Redefining built-in 'list'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:121: [W0612(unused-variable), flatten_fieldsets] Unused variable 'name'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:292: [C0113(unneeded-not), lookup_field] Consider changing "not name == u'__str__'" to "name != u'__str__'"
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:293: [C0113(unneeded-not), lookup_field] Consider changing "not name == u'__unicode__'" to "name != u'__unicode__'"
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:330: [R0912(too-many-branches), label_for_field] Too many branches (19/12)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:401: [R0911(too-many-return-statements), display_for_field] Too many return statements (9/6)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py:426: [R0911(too-many-return-statements), display_for_value] Too many return statements (7/6)
+************* Module django.contrib.admin.widgets
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/widgets.py:244: [W0511(fixme), ] XXX: The UX does not support multiple selected values.
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/widgets.py:247: [W0511(fixme), ] XXX: The deletion UX can be confusing when dealing with cascading deletion.
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/widgets.py:54: [W0622(redefined-builtin), AdminDateWidget.__init__] Redefining built-in 'format'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/widgets.py:67: [W0622(redefined-builtin), AdminTimeWidget.__init__] Redefining built-in 'format'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/widgets.py:84: [W0233(non-parent-init-called), AdminSplitDateTime.__init__] __init__ method from a non direct base class 'MultiWidget' is called
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/widgets.py:80: [W0231(super-init-not-called), AdminSplitDateTime.__init__] __init__ method from base class 'SplitDateTimeWidget' is not called
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/widgets.py:225: [R0902(too-many-instance-attributes), RelatedFieldWidgetWrapper] Too many instance attributes (9/7)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/widgets.py:232: [W0231(super-init-not-called), RelatedFieldWidgetWrapper.__init__] __init__ method from base class 'Widget' is not called
+************* Module django.contrib.admin.actions
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/actions.py:15: [R0914(too-many-locals), delete_selected] Too many local variables (16/15)
+************* Module django.contrib.admin.helpers
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/helpers.py:234: [W0141(bad-builtin), AdminReadonlyField.contents] Used builtin function 'map'. Using a list comprehension can be clearer.
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/helpers.py:280: [W0612(unused-variable), InlineAdminFormSet.fields] Unused variable 'i'
+************* Module django.contrib.admin.models
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/models.py:99: [E1136(unsubscriptable-object), LogEntry.get_change_message] Value 'self.change_message' is unsubscriptable
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/models.py:136: [E1101(no-member), LogEntry.get_edited_object] Instance of 'ForeignKey' has no 'get_object_for_this_type' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/models.py:143: [E1101(no-member), LogEntry.get_admin_url] Instance of 'ForeignKey' has no 'app_label' member
+************* Module django.contrib.admin.sites
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py:1: [C0302(too-many-lines), ] Too many lines in module (520/500)
+************* Module django.contrib.admin.tests
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:33: [E0401(import-error), AdminSeleniumTestCase.wait_until] Unable to import 'selenium.webdriver.support.wait'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:47: [E0401(import-error), AdminSeleniumTestCase.wait_for] Unable to import 'selenium.webdriver.common.by'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:48: [E0401(import-error), AdminSeleniumTestCase.wait_for] Unable to import 'selenium.webdriver.support'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:58: [E0401(import-error), AdminSeleniumTestCase.wait_for_text] Unable to import 'selenium.webdriver.common.by'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:59: [E0401(import-error), AdminSeleniumTestCase.wait_for_text] Unable to import 'selenium.webdriver.support'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:70: [E0401(import-error), AdminSeleniumTestCase.wait_for_value] Unable to import 'selenium.webdriver.common.by'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:71: [E0401(import-error), AdminSeleniumTestCase.wait_for_value] Unable to import 'selenium.webdriver.support'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:82: [E0401(import-error), AdminSeleniumTestCase.wait_until_visible] Unable to import 'selenium.webdriver.common.by'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:83: [E0401(import-error), AdminSeleniumTestCase.wait_until_visible] Unable to import 'selenium.webdriver.support'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:93: [E0401(import-error), AdminSeleniumTestCase.wait_until_invisible] Unable to import 'selenium.webdriver.common.by'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:94: [E0401(import-error), AdminSeleniumTestCase.wait_until_invisible] Unable to import 'selenium.webdriver.support'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:104: [E0401(import-error), AdminSeleniumTestCase.wait_page_loaded] Unable to import 'selenium.common.exceptions'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/tests.py:142: [E0401(import-error), AdminSeleniumTestCase.get_select_option] Unable to import 'selenium.common.exceptions'
+************* Module django.contrib.admin.templatetags.admin_urls
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/templatetags/admin_urls.py:5: [E0611(no-name-in-module), ] No name 'urllib' in module '_MovedItems'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/templatetags/admin_urls.py:5: [E0401(import-error), ] Unable to import 'django.utils.six.moves.urllib.parse'
+************* Module django.contrib.admin.templatetags.admin_list
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/templatetags/admin_list.py:135: [W0622(redefined-builtin), result_headers] Redefining built-in 'sorted'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/templatetags/admin_list.py:96: [R0914(too-many-locals), result_headers] Too many local variables (19/15)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/templatetags/admin_list.py:200: [R0914(too-many-locals), items_for_result] Too many local variables (22/15)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/templatetags/admin_list.py:200: [R0912(too-many-branches), items_for_result] Too many branches (22/12)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/templatetags/admin_list.py:200: [R0915(too-many-statements), items_for_result] Too many statements (61/50)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/templatetags/admin_list.py:321: [W0612(unused-variable), result_hidden_fields] Unused variable 'res'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/templatetags/admin_list.py:344: [R0914(too-many-locals), date_hierarchy] Too many local variables (19/15)
+************* Module django.contrib.admin.templatetags.admin_modify
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/templatetags/admin_modify.py:76: [W0612(unused-variable), cell_count] Unused variable 'field'
+************* Module django.contrib.admin.views.main
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/views/main.py:37: [R0902(too-many-instance-attributes), ChangeList] Too many instance attributes (35/7)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/views/main.py:38: [R0913(too-many-arguments), ChangeList.__init__] Too many arguments (13/10)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/views/main.py:101: [R0912(too-many-branches), ChangeList.get_filters] Too many branches (13/12)
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/views/main.py:254: [W0612(unused-variable), ChangeList.get_ordering] Unused variable 'none'
+/usr/local/lib/python2.7/dist-packages/django/contrib/admin/views/main.py:306: [W0612(unused-variable), ChangeList.get_ordering_field_columns] Unused variable 'none'
+************* Module django.contrib.auth.hashers
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:343: [C0330(bad-continuation), ] Wrong continued indentation (remove 3 spaces).
+            salt, data) = self._decode(encoded)
+         |  ^
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:358: [C0330(bad-continuation), ] Wrong continued indentation (remove 3 spaces).
+            salt, data) = self._decode(encoded)
+         |  ^
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:1: [C0302(too-many-lines), ] Too many lines in module (653/500)
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:50: [E1101(no-member), check_password] Instance of 'unicode' has no 'algorithm' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:50: [E1101(no-member), check_password] Instance of 'unicode' has no 'algorithm' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:51: [E1101(no-member), check_password] Instance of 'unicode' has no 'must_update' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:52: [E1101(no-member), check_password] Instance of 'unicode' has no 'verify' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:59: [E1101(no-member), check_password] Instance of 'unicode' has no 'harden_runtime' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:82: [E1101(no-member), make_password] Instance of 'unicode' has no 'salt' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:157: [W0622(redefined-builtin), mask_hash] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:182: [W0612(unused-variable), BasePasswordHasher._load_library] Unused variable 'name'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:258: [W0622(redefined-builtin), PBKDF2PasswordHasher.encode] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:253: [W0221(arguments-differ), PBKDF2PasswordHasher.encode] Arguments number differs from overridden 'encode' method
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:263: [W0622(redefined-builtin), PBKDF2PasswordHasher.verify] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:263: [W0612(unused-variable), PBKDF2PasswordHasher.verify] Unused variable 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:269: [W0622(redefined-builtin), PBKDF2PasswordHasher.safe_summary] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:279: [W0622(redefined-builtin), PBKDF2PasswordHasher.must_update] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:279: [W0612(unused-variable), PBKDF2PasswordHasher.must_update] Unused variable 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:279: [W0612(unused-variable), PBKDF2PasswordHasher.must_update] Unused variable 'algorithm'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:279: [W0612(unused-variable), PBKDF2PasswordHasher.must_update] Unused variable 'salt'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:283: [W0622(redefined-builtin), PBKDF2PasswordHasher.harden_runtime] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:283: [W0612(unused-variable), PBKDF2PasswordHasher.harden_runtime] Unused variable 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:283: [W0612(unused-variable), PBKDF2PasswordHasher.harden_runtime] Unused variable 'algorithm'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:357: [W0612(unused-variable), Argon2PasswordHasher.must_update] Unused variable 'variety'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:358: [W0612(unused-variable), Argon2PasswordHasher.must_update] Unused variable 'salt'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:358: [W0612(unused-variable), Argon2PasswordHasher.must_update] Unused variable 'data'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:440: [W0612(unused-variable), BCryptSHA256PasswordHasher.safe_summary] Unused variable 'algostr'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:440: [W0612(unused-variable), BCryptSHA256PasswordHasher.safe_summary] Unused variable 'empty'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:451: [W0612(unused-variable), BCryptSHA256PasswordHasher.must_update] Unused variable 'algorithm'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:451: [W0612(unused-variable), BCryptSHA256PasswordHasher.must_update] Unused variable 'algostr'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:451: [W0612(unused-variable), BCryptSHA256PasswordHasher.must_update] Unused variable 'data'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:451: [W0612(unused-variable), BCryptSHA256PasswordHasher.must_update] Unused variable 'empty'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:493: [W0622(redefined-builtin), SHA1PasswordHasher.encode] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:497: [W0622(redefined-builtin), SHA1PasswordHasher.verify] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:497: [W0612(unused-variable), SHA1PasswordHasher.verify] Unused variable 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:503: [W0622(redefined-builtin), SHA1PasswordHasher.safe_summary] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:524: [W0622(redefined-builtin), MD5PasswordHasher.encode] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:528: [W0622(redefined-builtin), MD5PasswordHasher.verify] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:528: [W0612(unused-variable), MD5PasswordHasher.verify] Unused variable 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:534: [W0622(redefined-builtin), MD5PasswordHasher.safe_summary] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:562: [W0622(redefined-builtin), UnsaltedSHA1PasswordHasher.encode] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:571: [W0622(redefined-builtin), UnsaltedSHA1PasswordHasher.safe_summary] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/hashers.py:639: [W0612(unused-variable), CryptPasswordHasher.verify] Unused variable 'salt'
+************* Module django.contrib.auth.admin
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/admin.py:134: [W0622(redefined-builtin), UserAdmin.user_change_password] Redefining built-in 'id'
+************* Module django.contrib.auth.backends
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/backends.py:128: [W0221(arguments-differ), RemoteUserBackend.authenticate] Arguments number differs from overridden 'authenticate' method
+************* Module django.contrib.auth.views
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/views.py:1: [C0302(too-many-lines), ] Too many lines in module (631/500)
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/views.py:26: [E0611(no-name-in-module), ] No name 'urllib' in module '_MovedItems'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/views.py:26: [E0401(import-error), ] Unable to import 'django.utils.six.moves.urllib.parse'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/views.py:250: [W0622(redefined-builtin), redirect_to_login] Redefining built-in 'next'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/views.py:275: [R0913(too-many-arguments), password_reset] Too many arguments (11/10)
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/views.py:480: [W0201(attribute-defined-outside-init), PasswordResetConfirmView.dispatch] Attribute 'user' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/views.py:479: [W0201(attribute-defined-outside-init), PasswordResetConfirmView.dispatch] Attribute 'validlink' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/views.py:488: [W0201(attribute-defined-outside-init), PasswordResetConfirmView.dispatch] Attribute 'validlink' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/views.py:26: [C0411(wrong-import-order), ] standard import "from django.utils.six.moves.urllib.parse import urlparse, urlunparse" comes before "from django.conf import settings"
+************* Module django.contrib.auth.tokens
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/tokens.py:31: [W0622(redefined-builtin), PasswordResetTokenGenerator.check_token] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/tokens.py:31: [W0612(unused-variable), PasswordResetTokenGenerator.check_token] Unused variable 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/tokens.py:62: [W0622(redefined-builtin), PasswordResetTokenGenerator._make_token_with_timestamp] Redefining built-in 'hash'
+************* Module django.contrib.auth.validators
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/validators.py:16: [E1101(no-member), ASCIIUsernameValidator] Module 're' has no 'ASCII' member
+************* Module django.contrib.auth.password_validation
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/password_validation.py:67: [W0621(redefined-outer-name), password_changed] Redefining name 'password_changed' from outer scope (line 59)
+************* Module django.contrib.auth.models
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py:83: [E1101(no-member), Permission.__str__] Instance of 'ForeignKey' has no 'app_label' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py:88: [E1101(no-member), Permission.natural_key] Instance of 'ForeignKey' has no 'natural_key' member
+************* Module django.contrib.auth.base_user
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/base_user.py:65: [E1101(no-member), AbstractBaseUser.get_username] Instance of 'AbstractBaseUser' has no 'USERNAME_FIELD' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/base_user.py:77: [E1101(no-member), AbstractBaseUser.clean] Instance of 'AbstractBaseUser' has no 'USERNAME_FIELD' member
+************* Module django.contrib.auth.forms
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/forms.py:39: [E1101(no-member), ReadOnlyPasswordHashWidget.get_context] Instance of 'unicode' has no 'safe_summary' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/forms.py:258: [R0914(too-many-locals), PasswordResetForm.save] Too many local variables (16/15)
+************* Module django.contrib.auth.decorators
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/decorators.py:9: [E0611(no-name-in-module), ] No name 'urllib' in module '_MovedItems'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/decorators.py:9: [E0401(import-error), ] Unable to import 'django.utils.six.moves.urllib.parse'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/decorators.py:9: [C0411(wrong-import-order), ] standard import "from django.utils.six.moves.urllib.parse import urlparse" comes before "from django.conf import settings"
+************* Module django.contrib.auth.migrations.0001_initial
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/migrations/0001_initial.py:98: [C0330(bad-continuation), ] Wrong continued indentation (remove 1 space).
+                 ),
+                |^
+************* Module django.contrib.auth.management.__init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/management/__init__.py:86: [C0325(superfluous-parens), ] Unnecessary parens after 'print' keyword
+************* Module django.contrib.auth.management
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/management/__init__.py:40: [R0914(too-many-locals), create_permissions] Too many local variables (19/15)
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/management/__init__.py:148: [E1101(no-member), get_default_username] Class 'User' has no '_default_manager' member
+************* Module django.contrib.auth.management.commands.createsuperuser
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/management/commands/createsuperuser.py:115: [C0330(bad-continuation), ] Wrong continued indentation (add 21 spaces).
+                    )
+                    ^                    |
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/management/commands/createsuperuser.py:16: [W0622(redefined-builtin), ] Redefining built-in 'input'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/management/commands/createsuperuser.py:16: [E0401(import-error), ] Unable to import 'django.utils.six.moves'
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/management/commands/createsuperuser.py:65: [R0914(too-many-locals), Command.handle] Too many local variables (19/15)
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/management/commands/createsuperuser.py:65: [R0912(too-many-branches), Command.handle] Too many branches (25/12)
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/management/commands/createsuperuser.py:65: [R0915(too-many-statements), Command.handle] Too many statements (75/50)
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/management/commands/createsuperuser.py:62: [W0201(attribute-defined-outside-init), Command.execute] Attribute 'stdin' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/auth/management/commands/createsuperuser.py:17: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module django.contrib.contenttypes.views
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/views.py:11: [R0912(too-many-branches), shortcut] Too many branches (20/12)
+************* Module django.contrib.contenttypes.models
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/models.py:58: [W0612(unused-variable), ContentTypeManager.get_for_model] Unused variable 'created'
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/models.py:65: [W0621(redefined-outer-name), ContentTypeManager.get_for_models] Redefining name 'models' from outer scope (line 6)
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/models.py:109: [W0622(redefined-builtin), ContentTypeManager.get_for_id] Redefining built-in 'id'
+************* Module django.contrib.contenttypes.fields
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/fields.py:1: [C0302(too-many-lines), ] Too many lines in module (672/500)
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/fields.py:20: [R0902(too-many-instance-attributes), GenericForeignKey] Too many instance attributes (9/7)
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/fields.py:160: [W0622(redefined-builtin), GenericForeignKey.get_content_type] Redefining built-in 'id'
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/fields.py:55: [W0201(attribute-defined-outside-init), GenericForeignKey.contribute_to_class] Attribute 'cache_attr' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/fields.py:53: [W0201(attribute-defined-outside-init), GenericForeignKey.contribute_to_class] Attribute 'name' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/fields.py:54: [W0201(attribute-defined-outside-init), GenericForeignKey.contribute_to_class] Attribute 'model' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/fields.py:425: [W0201(attribute-defined-outside-init), GenericRelation.contribute_to_class] Attribute 'model' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/fields.py:499: [R0902(too-many-instance-attributes), create_generic_related_manager.GenericRelatedObjectManager] Too many instance attributes (8/7)
+************* Module django.contrib.contenttypes.forms
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:20: [E1101(no-member), BaseGenericInlineFormSet.__init__] Instance of 'BaseGenericInlineFormSet' has no 'ct_field' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:20: [E1101(no-member), BaseGenericInlineFormSet.__init__] Instance of 'BaseGenericInlineFormSet' has no 'ct_fk_field' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:28: [E1101(no-member), BaseGenericInlineFormSet.__init__] Instance of 'BaseGenericInlineFormSet' has no 'ct_field' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:29: [E1101(no-member), BaseGenericInlineFormSet.__init__] Instance of 'BaseGenericInlineFormSet' has no 'for_concrete_model' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:30: [E1101(no-member), BaseGenericInlineFormSet.__init__] Instance of 'BaseGenericInlineFormSet' has no 'ct_fk_field' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:41: [E1101(no-member), BaseGenericInlineFormSet.get_default_prefix] Class 'BaseGenericInlineFormSet' has no 'ct_field' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:41: [E1101(no-member), BaseGenericInlineFormSet.get_default_prefix] Class 'BaseGenericInlineFormSet' has no 'ct_fk_field' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:44: [E1101(no-member), BaseGenericInlineFormSet.save_new] Instance of 'BaseGenericInlineFormSet' has no 'ct_field' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:45: [E1101(no-member), BaseGenericInlineFormSet.save_new] Instance of 'BaseGenericInlineFormSet' has no 'ct_fk_field' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:49: [R0913(too-many-arguments), generic_inlineformset_factory] Too many arguments (16/10)
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:49: [R0914(too-many-locals), generic_inlineformset_factory] Too many local variables (18/15)
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:71: [E1101(no-member), generic_inlineformset_factory] Instance of 'unicode' has no 'name' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:71: [E1101(no-member), generic_inlineformset_factory] Instance of 'unicode' has no 'name' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:73: [E1101(no-member), generic_inlineformset_factory] Instance of 'unicode' has no 'name' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/forms.py:73: [E1101(no-member), generic_inlineformset_factory] Instance of 'unicode' has no 'name' member
+************* Module django.contrib.contenttypes.management.__init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/management/__init__.py:65: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/management/__init__.py:135: [C0325(superfluous-parens), ] Unnecessary parens after 'print' keyword
+************* Module django.contrib.contenttypes.management
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/management/__init__.py:129: [W0612(unused-variable), create_contenttypes] Unused variable 'model'
+************* Module django.contrib.contenttypes.management.commands.remove_stale_contenttypes
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py:7: [W0622(redefined-builtin), ] Redefining built-in 'input'
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py:7: [E0401(import-error), ] Unable to import 'django.utils.six.moves'
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py:25: [R0914(too-many-locals), Command.handle] Too many local variables (18/15)
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py:30: [R0101(too-many-nested-blocks), Command.handle] Too many nested blocks (6/5)
+/usr/local/lib/python2.7/dist-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py:9: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module django.contrib.sessions.middleware
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/middleware.py:13: [W0231(super-init-not-called), SessionMiddleware.__init__] __init__ method from base class 'MiddlewareMixin' is not called
+************* Module django.contrib.sessions.serializers
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/serializers.py:4: [C0411(wrong-import-order), ] standard import "from django.utils.six.moves import cPickle as pickle" comes before "from django.core.signing import JSONSerializer as BaseJSONSerializer"
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/serializers.py:6: [C0411(wrong-import-order), ] standard import "import pickle" comes before "from django.core.signing import JSONSerializer as BaseJSONSerializer"
+************* Module django.contrib.sessions.backends.signed_cookies
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/signed_cookies.py:22: [W0703(broad-except), SessionStore.load] Catching too general exception Exception
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/signed_cookies.py:59: [W0201(attribute-defined-outside-init), SessionStore.delete] Attribute '_session_cache' defined outside __init__
+************* Module django.contrib.sessions.backends.file
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/file.py:159: [W0622(redefined-builtin), SessionStore.save] Redefining built-in 'dir'
+************* Module django.contrib.sessions.backends.cache
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/cache.py:6: [W0622(redefined-builtin), ] Redefining built-in 'range'
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/cache.py:6: [E0401(import-error), ] Unable to import 'django.utils.six.moves'
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/cache.py:28: [W0703(broad-except), SessionStore.load] Catching too general exception Exception
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/cache.py:43: [W0612(unused-variable), SessionStore.create] Unused variable 'i'
+************* Module django.contrib.sessions.backends.base
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py:99: [W0622(redefined-builtin), SessionBase.encode] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py:106: [W0622(redefined-builtin), SessionBase.decode] Redefining built-in 'hash'
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py:112: [W0703(broad-except), SessionBase.decode] Catching too general exception Exception
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py:149: [W0201(attribute-defined-outside-init), SessionBase.clear] Attribute '_session_cache' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py:205: [W0201(attribute-defined-outside-init), SessionBase._get_session] Attribute '_session_cache' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py:207: [W0201(attribute-defined-outside-init), SessionBase._get_session] Attribute '_session_cache' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py:312: [W0201(attribute-defined-outside-init), SessionBase.cycle_key] Attribute '_session_cache' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py:188: [W0201(attribute-defined-outside-init), SessionBase._set_session_key] Attribute '__session_key' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py:190: [W0201(attribute-defined-outside-init), SessionBase._set_session_key] Attribute '__session_key' defined outside __init__
+************* Module django.contrib.sessions.backends.cached_db
+/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/cached_db.py:34: [W0703(broad-except), SessionStore.load] Catching too general exception Exception
+************* Module django.contrib.messages
+/usr/local/lib/python2.7/dist-packages/django/contrib/messages/__init__.py:1: [W0401(wildcard-import), ] Wildcard import django.contrib.messages.api
+/usr/local/lib/python2.7/dist-packages/django/contrib/messages/__init__.py:2: [W0401(wildcard-import), ] Wildcard import django.contrib.messages.constants
+************* Module django.contrib.messages.storage.cookie
+/usr/local/lib/python2.7/dist-packages/django/contrib/messages/storage/cookie.py:17: [E0202(method-hidden), MessageEncoder.default] An attribute defined in json.encoder line 162 hides this method
+/usr/local/lib/python2.7/dist-packages/django/contrib/messages/storage/cookie.py:76: [E1101(no-member), CookieStorage._get] Instance of 'Message' has no 'pop' member
+/usr/local/lib/python2.7/dist-packages/django/contrib/messages/storage/cookie.py:155: [W0622(redefined-builtin), CookieStorage._decode] Redefining built-in 'hash'
+************* Module django.contrib.messages.storage.base
+/usr/local/lib/python2.7/dist-packages/django/contrib/messages/storage/base.py:92: [W0612(unused-variable), BaseStorage._loaded_messages] Unused variable 'all_retrieved'
+/usr/local/lib/python2.7/dist-packages/django/contrib/messages/storage/base.py:170: [W0201(attribute-defined-outside-init), BaseStorage._get_level] Attribute '_level' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/messages/storage/base.py:183: [W0201(attribute-defined-outside-init), BaseStorage._set_level] Attribute '_level' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/messages/storage/base.py:93: [W0201(attribute-defined-outside-init), BaseStorage._loaded_messages] Attribute '_loaded_data' defined outside __init__
+************* Module django.contrib.staticfiles.utils
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/utils.py:35: [W0622(redefined-builtin), get_files] Redefining built-in 'dir'
+************* Module django.contrib.staticfiles.finders
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py:25: [W0622(redefined-builtin), BaseFinder.find] Redefining built-in 'all'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py:76: [W0622(redefined-builtin), FileSystemFinder.find] Redefining built-in 'all'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py:110: [W0612(unused-variable), FileSystemFinder.list] Unused variable 'prefix'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py:151: [W0622(redefined-builtin), AppDirectoriesFinder.find] Redefining built-in 'all'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py:199: [W0622(redefined-builtin), BaseStorageFinder.find] Redefining built-in 'all'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py:240: [W0622(redefined-builtin), find] Redefining built-in 'all'
+************* Module django.contrib.staticfiles.views
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py:12: [E0611(no-name-in-module), ] No name 'urllib' in module '_MovedItems'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py:12: [E0401(import-error), ] Unable to import 'django.utils.six.moves.urllib.parse'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py:13: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module django.contrib.staticfiles.handlers
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/handlers.py:5: [E0611(no-name-in-module), ] No name 'urllib' in module '_MovedItems'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/handlers.py:5: [E0401(import-error), ] Unable to import 'django.utils.six.moves.urllib.parse'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/handlers.py:6: [E0611(no-name-in-module), ] No name 'urllib' in module '_MovedItems'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/handlers.py:6: [E0401(import-error), ] Unable to import 'django.utils.six.moves.urllib.request'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/handlers.py:5: [C0411(wrong-import-order), ] standard import "from django.utils.six.moves.urllib.parse import urlparse" comes before "from django.conf import settings"
+************* Module django.contrib.staticfiles.storage
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/storage.py:1: [C0302(too-many-lines), ] Too many lines in module (507/500)
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/storage.py:21: [W0622(redefined-builtin), ] Redefining built-in 'range'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/storage.py:21: [E0401(import-error), ] Unable to import 'django.utils.six.moves'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/storage.py:22: [E0611(no-name-in-module), ] No name 'urllib' in module '_MovedItems'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/storage.py:22: [E0401(import-error), ] Unable to import 'django.utils.six.moves.urllib.parse'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/storage.py:251: [W0612(unused-variable), HashedFilesMixin.post_process] Unused variable 'i'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/storage.py:266: [R0914(too-many-locals), HashedFilesMixin._post_process] Too many local variables (25/15)
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/storage.py:266: [R0912(too-many-branches), HashedFilesMixin._post_process] Too many branches (14/12)
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/storage.py:363: [W0612(unused-variable), HashedFilesMixin.stored_name] Unused variable 'i'
+************* Module django.contrib.staticfiles.management.commands.collectstatic
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:283: [C0325(superfluous-parens), ] Unnecessary parens after 'not' keyword
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:14: [W0622(redefined-builtin), ] Redefining built-in 'input'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:14: [E0401(import-error), ] Unable to import 'django.utils.six.moves'
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:17: [R0902(too-many-instance-attributes), Command] Too many instance attributes (13/7)
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:96: [R0912(too-many-branches), Command.collect] Too many branches (15/12)
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:89: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'dry_run' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:86: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'verbosity' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:93: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'ignore_patterns' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:87: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'symlink' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:94: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'post_process' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:88: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'clear' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/collectstatic.py:85: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'interactive' defined outside __init__
+************* 
+example/__init__.py:1: [F0010(parse-error), ] error while code parsing: Unable to load file u'/home/sach/django/Django-1.11-Hello-World/example/__init__.py' ([Errno 2] No such file or directory: u'/home/sach/django/Django-1.11-Hello-World/example/__init__.py')
+************* Module django_jenkins.runner
+/usr/local/lib/python2.7/dist-packages/django_jenkins/runner.py:103: [W0612(unused-variable), EXMLTestResult._add_tb_to_test] Unused variable 'tb'
+/usr/local/lib/python2.7/dist-packages/django_jenkins/runner.py:29: [W0201(attribute-defined-outside-init), EXMLTestResult.addSuccess] Attribute 'testcase' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django_jenkins/runner.py:33: [W0201(attribute-defined-outside-init), EXMLTestResult.addFailure] Attribute 'testcase' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django_jenkins/runner.py:39: [W0201(attribute-defined-outside-init), EXMLTestResult.addError] Attribute 'testcase' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django_jenkins/runner.py:45: [W0201(attribute-defined-outside-init), EXMLTestResult.addUnexpectedSuccess] Attribute 'testcase' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django_jenkins/runner.py:51: [W0201(attribute-defined-outside-init), EXMLTestResult.addSkip] Attribute 'testcase' defined outside __init__
+/usr/local/lib/python2.7/dist-packages/django_jenkins/runner.py:57: [W0201(attribute-defined-outside-init), EXMLTestResult.addExpectedFailure] Attribute 'testcase' defined outside __init__
+************* Module django_jenkins.apps
+/usr/local/lib/python2.7/dist-packages/django_jenkins/apps.py:20: [W0105(pointless-string-statement), JenkinsConfig.__init__] String statement has no effect
+************* Module django_jenkins.management.commands.jenkins
+/usr/local/lib/python2.7/dist-packages/django_jenkins/management/commands/jenkins.py:114: [C0325(superfluous-parens), ] Unnecessary parens after 'print' keyword
+/usr/local/lib/python2.7/dist-packages/django_jenkins/management/commands/jenkins.py:121: [C0325(superfluous-parens), ] Unnecessary parens after 'print' keyword
+/usr/local/lib/python2.7/dist-packages/django_jenkins/management/commands/jenkins.py:125: [C0325(superfluous-parens), ] Unnecessary parens after 'print' keyword
+/usr/local/lib/python2.7/dist-packages/django_jenkins/management/commands/jenkins.py:13: [W0621(redefined-outer-name), get_runner] Redefining name 'settings' from outer scope (line 7)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/management/commands/jenkins.py:54: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--output-dir', dest='output_dir', default='reports', help='Report files directory'), )" is assigned to nothing
+/usr/local/lib/python2.7/dist-packages/django_jenkins/management/commands/jenkins.py:56: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--enable-coverage', action='store_true', default=False, help='Measure code coverage'), )" is assigned to nothing
+/usr/local/lib/python2.7/dist-packages/django_jenkins/management/commands/jenkins.py:59: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--debug', action='store_true', dest='debug', default=False, help='Do not intercept stdout and stderr, friendly for console debuggers'), )" is assigned to nothing
+/usr/local/lib/python2.7/dist-packages/django_jenkins/management/commands/jenkins.py:62: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--coverage-rcfile', dest='coverage_rcfile', default='', help='Specify configuration file.'), )" is assigned to nothing
+/usr/local/lib/python2.7/dist-packages/django_jenkins/management/commands/jenkins.py:66: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--coverage-format', dest='coverage_format', default='xml', help='Specify coverage output formats html,xml,bin'), )" is assigned to nothing
+/usr/local/lib/python2.7/dist-packages/django_jenkins/management/commands/jenkins.py:70: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--coverage-exclude', action='append', default=[], dest='coverage_excludes', help='Module name to exclude'), )" is assigned to nothing
+************* Module django_jenkins.tasks.with_coverage
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/with_coverage.py:56: [C0325(superfluous-parens), ] Unnecessary parens after 'not' keyword
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/with_coverage.py:57: [C0325(superfluous-parens), ] Unnecessary parens after 'not' keyword
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/with_coverage.py:30: [E1101(no-member), CoverageReporter.save] Instance of 'coverage' has no 'get_data' member
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/with_coverage.py:56: [C0113(unneeded-not), CoverageReporter.get_morfs] Consider changing "not ((os.sep) + ('migrations')) + (os.sep) in filename" to "((os.sep) + ('migrations')) + (os.sep) not in filename"
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/with_coverage.py:57: [C0113(unneeded-not), CoverageReporter.get_morfs] Consider changing "not ((os.sep) + ('south_migrations')) + (os.sep) in filename" to "((os.sep) + ('south_migrations')) + (os.sep) not in filename"
+************* Module django_jenkins.tasks.run_pep8
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pep8.py:18: [W0106(expression-not-assigned), Reporter.add_arguments] Expression "(parser.add_argument('--pep8-ignore', dest='pep8-ignore', help='skip errors and warnings (e.g. E4,W)'), )" is assigned to nothing
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pep8.py:30: [E0213(no-self-argument), Reporter.run.JenkinsReport.error] Method should have "self" as first argument
+************* Module django_jenkins.tasks.run_flake8
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_flake8.py:11: [E0401(import-error), ] Unable to import 'flake8.api.legacy'
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_flake8.py:3: [C0411(wrong-import-order), ] standard import "import sys" comes before "import pep8"
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_flake8.py:6: [C0411(wrong-import-order), ] standard import "from StringIO import StringIO" comes before "import pep8"
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_flake8.py:8: [C0411(wrong-import-order), ] standard import "from io import StringIO" comes before "import pep8"
+************* Module django_jenkins.tasks.run_pyflakes
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:27: [R0101(too-many-nested-blocks), Reporter.run] Too many nested blocks (6/5)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:30: [W0612(unused-variable), Reporter.run] Unused variable 'dirnames'
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:8: [C0411(wrong-import-order), ] standard import "from StringIO import StringIO" comes before "from pyflakes.scripts import pyflakes"
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:10: [C0411(wrong-import-order), ] standard import "from io import StringIO" comes before "from pyflakes.scripts import pyflakes"
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.auth -> django.contrib.auth.models)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.templatetags.admin_list -> django.contrib.admin.utils)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.sites -> django.contrib.admin.actions -> django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.sites)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.auth.decorators -> django.contrib.auth.views)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.filters -> django.contrib.admin.options -> django.contrib.admin.models -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.models -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.templatetags.admin_urls -> django.contrib.admin.options)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.options -> django.contrib.admin.templatetags.admin_urls)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.filters -> django.contrib.admin.options -> django.contrib.admin.views.main)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.filters -> django.contrib.admin.options)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.sites -> django.contrib.admin.actions -> django.contrib.admin.helpers -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.sites -> django.contrib.admin.actions -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.decorators)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.filters -> django.contrib.admin.options -> django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main -> django.contrib.admin.utils)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.options -> django.contrib.admin.widgets -> django.contrib.admin.views.main -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.templatetags.admin_urls)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.actions -> django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.templatetags.admin_urls -> django.contrib.admin.options -> django.contrib.admin.checks -> django.contrib.admin.sites)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.filters -> django.contrib.admin.options -> django.contrib.admin.checks -> django.contrib.admin.sites)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.filters -> django.contrib.admin.options -> django.contrib.admin.checks -> django.contrib.admin.sites -> django.contrib.admin.actions -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.sessions.backends.db -> django.contrib.sessions.models)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.options -> django.contrib.admin.views.main)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.actions -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main -> django.contrib.admin.options -> django.contrib.admin.checks -> django.contrib.admin.sites)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main -> django.contrib.admin.options)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.filters -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.options -> django.contrib.admin.views.main)
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django_jenkins.tasks.run_flake8:79
+==django_jenkins.tasks.run_pep8:60
+        output.close()
+
+    def get_config_path(self, options):
+        if options['pep8-rcfile']:
+            return options['pep8-rcfile']
+
+        rcfile = getattr(settings, 'PEP8_RCFILE', None)
+        if rcfile:
+            return rcfile
+
+        if os.path.exists('tox.ini'):
+            return 'tox.ini'
+
+        if os.path.exists('setup.cfg'):
+            return 'setup.cfg'
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django_jenkins.tasks.run_flake8:46
+==django_jenkins.tasks.run_pep8:36
+        config_file = self.get_config_path(options)
+        if config_file is not None:
+            pep8_options['config_file'] = config_file
+
+        set_option(pep8_options, 'exclude', options['pep8-exclude'], config_file,
+                   default=pep8.DEFAULT_EXCLUDE + ",south_migrations", split=',')
+
+        set_option(pep8_options, 'select', options['pep8-select'], config_file, split=',')
+
+        set_option(pep8_options, 'ignore', options['pep8-ignore'], config_file, split=',')
+
+        set_option(pep8_options, 'max_line_length', options['pep8-max-line-length'], config_file,
+                   default=pep8.MAX_LINE_LENGTH)
+
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django.contrib.sessions.backends.cache:14
+==django.contrib.sessions.backends.cached_db:20
+    cache_key_prefix = KEY_PREFIX
+
+    def __init__(self, session_key=None):
+        self._cache = caches[settings.SESSION_CACHE_ALIAS]
+        super(SessionStore, self).__init__(session_key)
+
+    @property
+    def cache_key(self):
+        return self.cache_key_prefix + self._get_or_create_session_key()
+
+    def load(self):
+        try:
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django_jenkins.tasks.run_csslint:1
+==django_jenkins.tasks.run_scsslint:1
+import os
+import subprocess
+import codecs
+
+from django.conf import settings
+from django_jenkins.tasks import static_files_iterator
+
+
+class Reporter(object):
+    def add_arguments(self, parser):
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django_jenkins.tasks.run_flake8:25
+==django_jenkins.tasks.run_pep8:10
+        parser.add_argument("--pep8-exclude",
+                            dest="pep8-exclude",
+                            help="exclude files or directories which match these "
+                            "comma separated patterns (default: %s)" %
+                            (pep8.DEFAULT_EXCLUDE + ",south_migrations"))
+        parser.add_argument("--pep8-select", dest="pep8-select",
+                            help="select errors and warnings (e.g. E,W6)")
+        parser.add_argument("--pep8-ignore", dest="pep8-ignore",
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django.contrib.auth.migrations.0007_alter_validators_add_error_messages:12
+==django.contrib.auth.migrations.0008_alter_user_username_max_length:12
+    ]
+
+    operations = [
+        migrations.AlterField(
+            model_name='user',
+            name='username',
+            field=models.CharField(
+                error_messages={'unique': 'A user with that username already exists.'},
+/usr/local/lib/python2.7/dist-packages/django_jenkins/tasks/run_pyflakes.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django.contrib.sessions.backends.cache:43
+==django.contrib.sessions.backends.file:110
+            self._session_key = self._get_new_session_key()
+            try:
+                self.save(must_create=True)
+            except CreateError:
+                continue
+            self.modified = True
+            return
+
+
+Report
+======
+8649 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |142    |142        |=          |19.72       |9.15     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |236    |236        |=          |41.10       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |879    |879        |=          |75.20       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |165    |165        |=          |60.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    coverage (django_jenkins.tasks.with_coverage)
+    django 
+      \-apps (django.contrib.auth.management,django.contrib.admin.sites,django_jenkins.management.commands.jenkins,django.contrib.sessions.apps,django.contrib.contenttypes.apps,django.contrib.staticfiles.management.commands.collectstatic,django.contrib.contenttypes.checks,django.contrib.staticfiles.finders,django.contrib.contenttypes.management.commands.remove_stale_contenttypes,django.contrib.staticfiles.apps,django.contrib.contenttypes.models,django.contrib.contenttypes.management,django_jenkins.apps,django.contrib.auth.apps,django.contrib.auth,django.contrib.messages.apps,django.contrib.admin.apps,django.contrib.admin.checks,django.contrib.contenttypes.views,django.contrib.auth.checks)
+      \-conf (django.contrib.sessions.backends.cache,django.contrib.sessions.backends.cached_db,django.contrib.sessions.backends.base,django.contrib.admin.checks,django_jenkins.tasks,django_jenkins.tasks.run_pylint,django.contrib.admin.models,django.contrib.messages.storage,django.contrib.messages.storage.session,django_jenkins.management.commands.jenkins,django_jenkins.tasks.run_flake8,django.contrib.auth.password_validation,django.contrib.auth.middleware,django.contrib.messages.middleware,django_jenkins.tasks.with_coverage,django.contrib.auth.tokens,django.contrib.staticfiles.urls,django.contrib.auth.admin,django_jenkins.tasks.run_csslint,django.contrib.auth.tests.utils,django.contrib.messages.utils,django.contrib.auth.views,django.contrib.auth.checks,django.contrib.messages.storage.cookie,django.contrib.auth.decorators,django.contrib.sessions.backends.file,django.contrib.sessions.middleware,django.contrib.staticfiles.utils,django.contrib.staticfiles.views,django.contrib.auth.mixins,django.contrib.staticfiles.management.commands.runserver,django.contrib.staticfiles.finders,django.contrib.staticfiles.handlers,django.contrib.sessions.management.commands.clearsessions,django.contrib.staticfiles.storage,django.contrib.auth.hashers,django.contrib.admin.migrations.0001_initial,django_jenkins.tasks.run_scsslint,django_jenkins.tasks.run_pep8,django_jenkins.tasks.run_jshint,django.contrib.auth,django.contrib.messages.storage.base,django.contrib.sessions.backends.signed_cookies,django.contrib.admin.helpers,django.contrib.admin.options)
+      | \-urls (django.contrib.admin.sites,django.contrib.auth.urls,django.contrib.auth.admin,django.contrib.admin.options)
+      |   \-static (django.contrib.staticfiles.urls)
+      \-contrib 
+      | \-admin (django.contrib.admin.views.main,django.contrib.admin.checks,django.contrib.admin.sites,django.contrib.auth.admin,django.contrib.admin.decorators)
+      | | \-actions (django.contrib.admin.sites)
+      | | \-checks (django.contrib.admin.apps,django.contrib.contenttypes.admin,django.contrib.admin.options)
+      | | \-decorators (django.contrib.admin)
+      | | \-exceptions (django.contrib.admin.views.main,django.contrib.admin.options)
+      | | \-filters (django.contrib.admin,django.contrib.admin.options)
+      | | \-forms (django.contrib.admin.sites)
+      | | \-helpers (django.contrib.admin,django.contrib.admin.actions,django.contrib.admin.options)
+      | | \-models (django.contrib.admin.templatetags.log,django.contrib.admin.migrations.0001_initial,django.contrib.admin.options)
+      | | \-options (django.contrib.admin.views.main,django.contrib.auth.admin,django.contrib.admin.templatetags.admin_urls,django.contrib.admin,django.contrib.contenttypes.admin,django.contrib.admin.checks,django.contrib.admin.filters)
+      | | \-sites (django.contrib.admin,django.contrib.admin.decorators,django.contrib.admin.checks)
+      | | \-templatetags 
+      | | | \-admin_list (django.contrib.admin.utils,django.contrib.admin.helpers)
+      | | | \-admin_urls (django.contrib.admin.templatetags.admin_list,django.contrib.admin.options)
+      | | \-utils (django.contrib.admin.views.main,django.contrib.admin.actions,django.contrib.admin.models,django.contrib.admin.templatetags.admin_urls,django.contrib.auth.admin,django.contrib.admin.templatetags.admin_list,django.contrib.admin.checks,django.contrib.admin.filters,django.contrib.admin.helpers,django.contrib.admin.options)
+      | | \-views 
+      | | | \-main (django.contrib.admin.templatetags.admin_list,django.contrib.admin.widgets,django.contrib.admin.options)
+      | | \-widgets (django.contrib.admin.options)
+      | \-auth (django.contrib.auth.management,django.contrib.admin.sites,django.contrib.admin.utils,django.contrib.auth.decorators,django.contrib.auth.models,django.contrib.auth.management.commands.changepassword,django.contrib.auth.admin,django.contrib.auth.handlers.modwsgi,django.contrib.admin.views.decorators,django.contrib.auth.backends,django.contrib.auth.mixins,django.contrib.auth.middleware,django.contrib.auth.forms,django.contrib.auth.management.commands.createsuperuser,django.contrib.auth.views,django.contrib.admin.options)
+      | | \-backends (django.contrib.auth.middleware)
+      | | \-base_user (django.contrib.auth.models)
+      | | \-checks (django.contrib.auth.apps)
+      | | \-decorators (django.contrib.admin.views.decorators,django.contrib.auth.views)
+      | | \-forms (django.contrib.admin.forms,django.contrib.auth.views,django.contrib.auth.admin)
+      | | \-hashers (django.contrib.auth.base_user,django.contrib.auth.forms)
+      | | \-management (django.contrib.auth.management.commands.createsuperuser,django.contrib.auth.apps,django.contrib.auth.checks)
+      | | \-models (django.contrib.auth.management,django.contrib.auth.migrations.0001_initial,django.contrib.auth.context_processors,django.contrib.auth.admin,django.contrib.auth.backends,django.contrib.auth,django.contrib.auth.forms)
+      | | \-password_validation (django.contrib.auth.base_user,django.contrib.auth.management.commands.createsuperuser,django.contrib.auth.forms,django.contrib.auth.management.commands.changepassword)
+      | | \-signals (django.contrib.auth.models)
+      | | \-tokens (django.contrib.auth.forms,django.contrib.auth.views)
+      | | \-validators (django.contrib.auth.migrations.0007_alter_validators_add_error_messages,django.contrib.auth.models,django.contrib.auth.migrations.0001_initial,django.contrib.auth.migrations.0004_alter_user_username_opts,django.contrib.auth.migrations.0008_alter_user_username_max_length)
+      | | \-views (django.contrib.admin.sites,django.contrib.auth.urls,django.contrib.auth.decorators,django.contrib.auth.mixins)
+      | \-contenttypes 
+      | | \-checks (django.contrib.contenttypes.apps)
+      | | \-fields (django.contrib.contenttypes.admin,django.contrib.contenttypes.checks)
+      | | \-forms (django.contrib.contenttypes.admin)
+      | | \-management (django.contrib.contenttypes.management.commands.remove_stale_contenttypes,django.contrib.contenttypes.apps)
+      | | \-models (django.contrib.contenttypes.migrations.0001_initial,django.contrib.contenttypes.forms,django.contrib.contenttypes.management.commands.remove_stale_contenttypes,django.contrib.admin.models,django.contrib.contenttypes.views,django.contrib.contenttypes.fields,django.contrib.auth.models,django.contrib.admin.options)
+      | | \-views (django.contrib.admin.sites)
+      | \-messages (django.contrib.messages.views,django.contrib.admin.actions,django.contrib.auth.admin,django.contrib.admin.options)
+      | | \-api (django.contrib.messages.context_processors)
+      | | \-constants (django.contrib.messages.storage.base,django.contrib.messages.context_processors,django.contrib.messages.utils,django.contrib.messages.api)
+      | | \-storage (django.contrib.messages.middleware,django.contrib.messages.api)
+      | | | \-base (django.contrib.messages.storage.fallback,django.contrib.messages.storage.session,django.contrib.messages.storage.cookie)
+      | | | \-cookie (django.contrib.messages.storage.fallback,django.contrib.messages.storage.session)
+      | | | \-session (django.contrib.messages.storage.fallback)
+      | | \-utils (django.contrib.messages.storage.base)
+      | \-sessions 
+      | | \-backends 
+      | | | \-base (django.contrib.sessions.backends.db,django.contrib.sessions.backends.signed_cookies,django.contrib.sessions.backends.cache,django.contrib.sessions.backends.file,django.contrib.sessions.middleware)
+      | | | \-db (django.contrib.sessions.models,django.contrib.sessions.backends.cached_db)
+      | | \-base_session (django.contrib.sessions.models)
+      | | \-exceptions (django.contrib.sessions.backends.file,django.contrib.sessions.backends.base)
+      | | \-models (django.contrib.sessions.backends.db,django.contrib.sessions.migrations.0001_initial)
+      | \-sites 
+      | | \-requests (django.contrib.contenttypes.views)
+      | | \-shortcuts (django.contrib.auth.forms,django.contrib.auth.views)
+      | \-staticfiles 
+      |   \-finders (django.contrib.staticfiles.views,django_jenkins.tasks,django.contrib.staticfiles.management.commands.findstatic,django.contrib.staticfiles.management.commands.collectstatic)
+      |   \-handlers (django.contrib.staticfiles.management.commands.runserver,django.contrib.staticfiles.testing)
+      |   \-storage (django.contrib.staticfiles.management.commands.collectstatic)
+      |   \-testing (django.contrib.admin.tests)
+      |   \-utils (django.contrib.staticfiles.handlers,django.contrib.staticfiles.finders,django.contrib.staticfiles.storage)
+      |   \-views (django.contrib.staticfiles.handlers,django.contrib.staticfiles.urls)
+      \-core 
+      | \-cache (django.contrib.sessions.backends.cache,django.contrib.sessions.backends.cached_db,django.contrib.staticfiles.storage)
+      | \-checks (django.contrib.contenttypes.fields,django.contrib.contenttypes.apps,django.contrib.contenttypes.admin,django.contrib.auth.apps,django.contrib.admin.apps,django.contrib.admin.checks,django.contrib.auth.checks)
+      | \-exceptions (django.contrib.admin.sites,django.contrib.sessions.backends.cached_db,django.contrib.sessions.backends.base,django.contrib.auth.models,django.contrib.admin.views.main,django.contrib.auth.management.commands.changepassword,django.contrib.contenttypes.admin,django.contrib.auth.admin,django.contrib.auth.management.commands.createsuperuser,django.contrib.contenttypes.views,django.contrib.auth.password_validation,django.contrib.admin.utils,django.contrib.staticfiles.storage,django.contrib.admin.exceptions,django.contrib.sessions.exceptions,django.contrib.auth.decorators,django.contrib.sessions.backends.db,django.contrib.sessions.backends.file,django.contrib.admin.actions,django.contrib.sessions.middleware,django.contrib.staticfiles.utils,django.contrib.auth.mixins,django.contrib.auth.middleware,django.contrib.staticfiles.finders,django.contrib.contenttypes.fields,django.contrib.auth.management,django.contrib.auth.hashers,django.contrib.admin.widgets,django.contrib.auth,django.contrib.admin.templatetags.admin_list,django.contrib.admin.checks,django.contrib.admin.filters,django.contrib.admin.helpers,django.contrib.admin.options)
+      | \-files 
+      | | \-base (django.contrib.staticfiles.storage)
+      | | \-storage (django.contrib.staticfiles.finders,django.contrib.staticfiles.management.commands.collectstatic,django.contrib.staticfiles.storage)
+      | \-handlers 
+      | | \-wsgi (django.contrib.staticfiles.handlers)
+      | \-mail (django.contrib.auth.models,django.contrib.auth.forms)
+      | \-management (django.contrib.contenttypes.management.commands.remove_stale_contenttypes)
+      | | \-base (django.contrib.auth.management.commands.createsuperuser,django.contrib.sessions.management.commands.clearsessions,django.contrib.auth.management.commands.changepassword,django.contrib.staticfiles.management.commands.collectstatic,django.contrib.staticfiles.management.commands.findstatic)
+      | | \-color (django.contrib.staticfiles.management.commands.collectstatic)
+      | | \-commands 
+      | |   \-runserver (django.contrib.staticfiles.management.commands.runserver)
+      | |   \-test (django_jenkins.management.commands.jenkins)
+      | \-paginator (django.contrib.admin.views.main,django.contrib.admin.options)
+      | \-signals (django.contrib.auth.hashers)
+      | \-signing (django.contrib.sessions.serializers,django.contrib.sessions.backends.signed_cookies)
+      | \-validators (django.contrib.auth.validators)
+      \-db (django.contrib.auth.management,django.contrib.contenttypes.management,django.contrib.auth.management.commands.changepassword,django.contrib.admin.actions,django.contrib.contenttypes.management.commands.remove_stale_contenttypes,django.contrib.auth.admin,django.contrib.auth.handlers.modwsgi,django.contrib.sessions.backends.db,django.contrib.contenttypes.fields,django.contrib.auth.management.commands.createsuperuser,django.contrib.admin.options)
+      | \-migrations (django.contrib.auth.migrations.0007_alter_validators_add_error_messages,django.contrib.auth.migrations.0001_initial,django.contrib.auth.migrations.0003_alter_user_email_max_length,django.contrib.auth.migrations.0005_alter_user_last_login_null,django.contrib.admin.migrations.0001_initial,django.contrib.auth.migrations.0004_alter_user_username_opts,django.contrib.sessions.migrations.0001_initial,django.contrib.contenttypes.migrations.0001_initial,django.contrib.auth.migrations.0006_require_contenttypes_0002,django.contrib.contenttypes.management,django.contrib.auth.migrations.0002_alter_permission_name_max_length,django.contrib.contenttypes.migrations.0002_remove_content_type_name,django.contrib.admin.migrations.0002_logentry_remove_auto_add,django.contrib.auth.migrations.0008_alter_user_username_max_length)
+      | \-models (django.contrib.contenttypes.migrations.0001_initial,django.contrib.auth.migrations.0004_alter_user_username_opts,django.contrib.auth.models,django.contrib.admin.views.main,django.contrib.admin.models,django.contrib.sessions.base_session,django.contrib.contenttypes.migrations.0002_remove_content_type_name,django.contrib.auth.migrations.0008_alter_user_username_max_length,django.contrib.admin.utils,django.contrib.auth.migrations.0002_alter_permission_name_max_length,django.contrib.contenttypes.models,django.contrib.auth.migrations.0003_alter_user_email_max_length,django.contrib.admin.migrations.0002_logentry_remove_auto_add,django.contrib.auth.migrations.0001_initial,django.contrib.contenttypes.forms,django.contrib.sessions.migrations.0001_initial,django.contrib.admin.templatetags.admin_list,django.contrib.auth.migrations.0005_alter_user_last_login_null,django.contrib.contenttypes.fields,django.contrib.admin.migrations.0001_initial,django.contrib.auth.migrations.0007_alter_validators_add_error_messages,django.contrib.auth.base_user,django.contrib.admin.checks,django.contrib.admin.filters,django.contrib.admin.options)
+      | | \-base (django.contrib.contenttypes.fields,django.contrib.admin.sites)
+      | | \-constants (django.contrib.admin.checks,django.contrib.admin.utils,django.contrib.admin.options)
+      | | \-deletion (django.contrib.admin.utils,django.contrib.contenttypes.management.commands.remove_stale_contenttypes,django.contrib.admin.widgets)
+      | | \-fields (django.contrib.admin.options)
+      | | | \-related (django.contrib.contenttypes.fields,django.contrib.admin.helpers)
+      | | \-manager (django.contrib.auth.models)
+      | | \-query_utils (django.contrib.contenttypes.fields)
+      | | \-signals (django.contrib.contenttypes.apps,django.contrib.auth.apps)
+      | | \-sql 
+      | |   \-constants (django.contrib.admin.utils)
+      | \-transaction (django.contrib.contenttypes.management,django.contrib.contenttypes.fields,django.contrib.sessions.backends.db,django.contrib.auth.admin,django.contrib.admin.options)
+      | \-utils (django.contrib.contenttypes.management)
+      \-dispatch (django.contrib.auth.hashers,django.contrib.auth.signals)
+      \-forms (django.contrib.contenttypes.forms,django.contrib.contenttypes.admin,django.contrib.admin.forms,django.contrib.admin.widgets,django.contrib.auth.forms,django.contrib.admin.helpers,django.contrib.admin.options)
+      | \-formsets (django.contrib.admin.helpers,django.contrib.admin.options)
+      | \-models (django.contrib.contenttypes.forms,django.contrib.admin.checks,django.contrib.contenttypes.admin,django.contrib.admin.options)
+      | \-utils (django.contrib.admin.utils,django.contrib.admin.helpers)
+      | \-widgets (django.contrib.admin.options)
+      \-http (django.contrib.staticfiles.handlers,django.contrib.admin.sites,django.contrib.auth.admin,django.contrib.auth.views,django.contrib.staticfiles.views,django.contrib.admin.options,django.contrib.contenttypes.views,django.contrib.messages.storage.cookie)
+      | \-response (django.contrib.admin.options)
+      \-middleware 
+      | \-csrf (django.contrib.auth)
+      \-shortcuts (django.contrib.auth.views,django.contrib.auth.decorators)
+      \-template (django.contrib.admin.templatetags.admin_static,django.contrib.staticfiles.templatetags.staticfiles,django.contrib.admin.templatetags.admin_modify,django.contrib.admin.templatetags.admin_urls,django.contrib.admin.templatetags.admin_list,django.contrib.admin.templatetags.log)
+      | \-context (django.contrib.admin.templatetags.admin_modify)
+      | \-defaultfilters (django.contrib.admin.helpers)
+      | \-engine (django.contrib.admin.checks)
+      | \-loader (django.contrib.admin.templatetags.admin_list,django.contrib.auth.forms)
+      | \-response (django.contrib.admin.sites,django.contrib.admin.actions,django.contrib.auth.views,django.contrib.auth.admin,django.contrib.admin.options)
+      \-templatetags 
+      | \-static (django.contrib.admin.templatetags.admin_list,django.contrib.admin.templatetags.admin_static,django.contrib.staticfiles.templatetags.staticfiles)
+      \-test (django.contrib.admin.tests,django.contrib.staticfiles.testing)
+      | \-runner (django_jenkins.runner)
+      | \-selenium (django.contrib.admin.tests)
+      \-urls (django.contrib.admin.sites,django.contrib.admin.utils,django.contrib.admin.views.main,django.contrib.admin.models,django.contrib.admin.templatetags.admin_urls,django.contrib.auth.admin,django.contrib.admin.widgets,django.contrib.admin.templatetags.admin_list,django.contrib.auth.views,django.contrib.admin.options)
+      | \-exceptions (django.contrib.admin.widgets)
+      \-utils 
+      | \-_os (django.contrib.auth.password_validation,django.contrib.staticfiles.finders)
+      | \-cache (django.contrib.sessions.middleware)
+      | \-crypto (django.contrib.auth.hashers,django.contrib.sessions.backends.base,django.contrib.auth.tokens,django.contrib.auth,django.contrib.auth.base_user,django.contrib.messages.storage.cookie)
+      | \-deconstruct (django.contrib.auth.validators)
+      | \-decorators (django.contrib.auth.decorators,django.contrib.auth.views,django.contrib.auth.admin,django.contrib.admin.options)
+      | \-deprecation (django.contrib.auth.middleware,django.contrib.messages.middleware,django.contrib.auth.models,django.contrib.sessions.middleware,django.contrib.admin.tests,django.contrib.auth.base_user,django.contrib.auth.tests.utils,django.contrib.auth,django.contrib.admin.templatetags.admin_list,django.contrib.auth.views,django.contrib.admin.helpers)
+      | \-encoding (django.contrib.sessions.backends.cached_db,django.contrib.sessions.backends.base,django.contrib.auth.models,django.contrib.admin.views.main,django.contrib.auth.management.commands.changepassword,django.contrib.admin.models,django.contrib.sessions.base_session,django.contrib.auth.management.commands.createsuperuser,django.contrib.messages.storage.base,django.contrib.auth.password_validation,django.contrib.admin.utils,django.contrib.staticfiles.management.commands.collectstatic,django.contrib.auth.admin,django.contrib.auth.handlers.modwsgi,django_jenkins.runner,django.contrib.contenttypes.models,django.contrib.auth.views,django.contrib.staticfiles.storage,django.contrib.sessions.backends.db,django.contrib.sessions.backends.file,django.contrib.admin.actions,django.contrib.admin.templatetags.admin_list,django.contrib.auth.mixins,django.contrib.contenttypes.fields,django.contrib.auth.management,django.contrib.staticfiles.management.commands.findstatic,django.contrib.auth.hashers,django.contrib.admin.widgets,django.contrib.auth.base_user,django.contrib.auth.forms,django.contrib.admin.filters,django.contrib.admin.helpers,django.contrib.admin.options)
+      | \-formats (django.contrib.admin.templatetags.admin_list,django.contrib.admin.utils)
+      | \-functional (django.contrib.auth.password_validation,django.contrib.auth.middleware,django.contrib.staticfiles.management.commands.collectstatic,django.contrib.staticfiles.storage,django.contrib.sessions.backends.db,django.contrib.staticfiles.finders,django.contrib.contenttypes.fields)
+      | \-html (django.contrib.auth.password_validation,django.contrib.admin.utils,django.contrib.auth.admin,django.contrib.admin.widgets,django.contrib.admin.templatetags.admin_list,django.contrib.admin.helpers,django.contrib.admin.options)
+      | \-http (django.contrib.auth.tokens,django.contrib.admin.views.main,django.contrib.sessions.middleware,django.contrib.admin.templatetags.admin_urls,django.contrib.auth.forms,django.contrib.auth.views,django.contrib.admin.options)
+      | \-lru_cache (django.contrib.auth.password_validation,django.contrib.staticfiles.finders,django.contrib.auth.hashers)
+      | \-module_loading (django.contrib.auth.password_validation,django.contrib.auth.hashers,django.contrib.sessions.backends.base,django.contrib.messages.storage,django.contrib.admin,django.contrib.auth,django.contrib.staticfiles.finders)
+      | \-safestring (django.contrib.admin.templatetags.admin_list,django.contrib.messages.storage.cookie,django.contrib.admin.helpers,django.contrib.admin.widgets,django.contrib.admin.options)
+      | \-six (django.contrib.admin.sites,django.contrib.auth.migrations.0004_alter_user_username_opts,django.contrib.auth.models,django.contrib.admin.views.main,django.contrib.contenttypes.management.commands.remove_stale_contenttypes,django.contrib.messages.storage.session,django.contrib.auth.migrations.0008_alter_user_username_max_length,django.contrib.auth.password_validation,django.contrib.admin.utils,django.contrib.staticfiles.storage,django.contrib.auth.validators,django.contrib.auth.tokens,django.contrib.contenttypes.management,django.contrib.messages.storage.cookie,django.contrib.auth.migrations.0001_initial,django.contrib.auth.decorators,django.contrib.auth.mixins,django.contrib.staticfiles.finders,django.contrib.auth.management,django.contrib.auth.migrations.0007_alter_validators_add_error_messages,django.contrib.admin.widgets,django.contrib.admin.options,django.contrib.admin.helpers,django.contrib.contenttypes.checks)
+      | \-text (django.contrib.admin.sites,django.contrib.admin.utils,django.contrib.admin.models,django.contrib.admin.widgets,django.contrib.admin.templatetags.admin_list,django.contrib.auth.forms,django.contrib.auth.management.commands.createsuperuser,django.contrib.admin.options)
+      | \-timezone (django.contrib.auth.migrations.0001_initial,django.contrib.admin.utils,django.contrib.sessions.backends.cached_db,django.contrib.sessions.backends.base,django.contrib.sessions.backends.db,django.contrib.auth.models,django.contrib.sessions.backends.file,django.contrib.admin.models,django.contrib.admin.filters,django.contrib.admin.migrations.0002_logentry_remove_auto_add)
+      | \-translation (django.contrib.admin.sites,django.contrib.auth.models,django.contrib.admin.views.main,django.contrib.admin.models,django.contrib.sessions.base_session,django.contrib.admin.tests,django.contrib.auth.apps,django.contrib.contenttypes.views,django.contrib.auth.password_validation,django.contrib.admin.utils,django.contrib.sessions.apps,django.contrib.auth.admin,django.contrib.auth.validators,django.contrib.admin.forms,django.contrib.messages.apps,django.contrib.contenttypes.models,django.contrib.auth.views,django.contrib.contenttypes.apps,django.contrib.admin.actions,django.contrib.admin.templatetags.admin_list,django.contrib.staticfiles.apps,django.contrib.auth.forms,django.contrib.auth.hashers,django.contrib.admin.widgets,django.contrib.auth,django.contrib.auth.base_user,django.contrib.admin.apps,django.contrib.admin.filters,django.contrib.admin.helpers,django.contrib.admin.options)
+      \-views 
+        \-debug (django.contrib.staticfiles.handlers)
+        \-decorators 
+        | \-cache (django.contrib.admin.sites,django.contrib.auth.views)
+        | \-csrf (django.contrib.admin.sites,django.contrib.auth.views,django.contrib.auth.admin,django.contrib.admin.options)
+        | \-debug (django.contrib.auth.views,django.contrib.auth.admin)
+        \-generic (django.contrib.admin.options)
+        | \-base (django.contrib.auth.views)
+        | \-edit (django.contrib.auth.views)
+        \-i18n (django.contrib.admin.sites)
+        \-static (django.contrib.staticfiles.views)
+    django_jenkins 
+      \-runner (django_jenkins.management.commands.jenkins)
+      \-tasks (django_jenkins.tasks.run_flake8,django_jenkins.tasks.run_csslint,django_jenkins.tasks.run_jshint,django_jenkins.tasks.run_scsslint,django_jenkins.tasks.run_pep8)
+        \-with_coverage (django_jenkins.apps)
+    pep8 (django_jenkins.tasks.run_flake8,django_jenkins.tasks.run_pep8)
+    pyflakes 
+      \-scripts 
+        \-pyflakes (django_jenkins.tasks.run_pyflakes)
+    pylint 
+      \-lint (django_jenkins.tasks.run_pylint)
+      \-reporters 
+        \-text (django_jenkins.tasks.run_pylint)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |11267  |64.75 |11267    |=          |
++----------+-------+------+---------+-----------+
+|docstring |2818   |16.19 |2818     |=          |
++----------+-------+------+---------+-----------+
+|comment   |855    |4.91  |855      |=          |
++----------+-------+------+---------+-----------+
+|empty     |2461   |14.14 |2461     |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |74    |74       |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.429 |0.429    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |44     |44       |=          |
++-----------+-------+---------+-----------+
+|refactor   |79     |79       |=          |
++-----------+-------+---------+-----------+
+|warning    |148    |148      |=          |
++-----------+-------+---------+-----------+
+|error      |87     |87       |=          |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|module                                                                    |error |warning |refactor |convention |
++==========================================================================+======+========+=========+===========+
+|django.contrib.admin.options                                              |22.99 |6.08    |15.19    |4.55       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.contenttypes.forms                                         |14.94 |0.00    |2.53     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.tests                                                |14.94 |0.00    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.hashers                                               |6.90  |22.97   |0.00     |6.82       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.staticfiles.handlers                                       |4.60  |0.00    |0.00     |2.27       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.staticfiles.storage                                        |3.45  |2.03    |2.53     |2.27       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.models                                               |3.45  |0.00    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.views                                                 |2.30  |2.70    |1.27     |4.55       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.messages.storage.cookie                                    |2.30  |0.68    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.staticfiles.views                                          |2.30  |0.00    |0.00     |2.27       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.decorators                                            |2.30  |0.00    |0.00     |2.27       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.models                                                |2.30  |0.00    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.base_user                                             |2.30  |0.00    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.templatetags.admin_urls                              |2.30  |0.00    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.staticfiles.management.commands.collectstatic              |1.15  |5.41    |2.53     |2.27       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.checks                                               |1.15  |3.38    |3.80     |4.55       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.sessions.backends.cache                                    |1.15  |2.03    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.management.commands.createsuperuser                   |1.15  |1.35    |3.80     |4.55       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.contenttypes.management.commands.remove_stale_contenttypes |1.15  |0.68    |2.53     |2.27       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django_jenkins.tasks.run_pep8                                             |1.15  |0.68    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.management.__init__                                   |1.15  |0.00    |1.27     |2.27       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.forms                                                 |1.15  |0.00    |1.27     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django_jenkins.tasks.with_coverage                                        |1.15  |0.00    |0.00     |9.09       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django_jenkins.tasks.run_flake8                                           |1.15  |0.00    |0.00     |6.82       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.validators                                            |1.15  |0.00    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.sessions.backends.base                                     |0.00  |6.08    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.widgets                                              |0.00  |4.73    |1.27     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django_jenkins.management.commands.jenkins                                |0.00  |4.73    |0.00     |6.82       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django_jenkins.runner                                                     |0.00  |4.73    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.staticfiles.finders                                        |0.00  |4.05    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.contenttypes.fields                                        |0.00  |3.38    |2.53     |2.27       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.messages.storage.base                                      |0.00  |2.70    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.filters                                              |0.00  |2.03    |1.27     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.contenttypes.models                                        |0.00  |2.03    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.tokens                                                |0.00  |2.03    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.templatetags.admin_list                              |0.00  |1.35    |6.33     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.utils                                                |0.00  |1.35    |3.80     |15.91      |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.views.main                                           |0.00  |1.35    |3.80     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.sessions.backends.signed_cookies                           |0.00  |1.35    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.messages                                                   |0.00  |1.35    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.helpers                                              |0.00  |1.35    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django_jenkins.tasks.run_pyflakes                                         |0.00  |0.68    |41.77    |4.55       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.contenttypes.management.__init__                           |0.00  |0.68    |0.00     |4.55       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django_jenkins.apps                                                       |0.00  |0.68    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.staticfiles.utils                                          |0.00  |0.68    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.sessions.middleware                                        |0.00  |0.68    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.sessions.backends.file                                     |0.00  |0.68    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.sessions.backends.cached_db                                |0.00  |0.68    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.password_validation                                   |0.00  |0.68    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.backends                                              |0.00  |0.68    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.admin                                                 |0.00  |0.68    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.templatetags.admin_modify                            |0.00  |0.68    |0.00     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.contenttypes.views                                         |0.00  |0.00    |1.27     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.actions                                              |0.00  |0.00    |1.27     |0.00       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.sessions.serializers                                       |0.00  |0.00    |0.00     |4.55       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.auth.migrations.0001_initial                               |0.00  |0.00    |0.00     |2.27       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+|django.contrib.admin.sites                                                |0.00  |0.00    |0.00     |2.27       |
++--------------------------------------------------------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|no-member                      |49          |
++-------------------------------+------------+
+|redefined-builtin              |47          |
++-------------------------------+------------+
+|unused-variable                |37          |
++-------------------------------+------------+
+|attribute-defined-outside-init |31          |
++-------------------------------+------------+
+|import-error                   |26          |
++-------------------------------+------------+
+|cyclic-import                  |25          |
++-------------------------------+------------+
+|too-many-locals                |14          |
++-------------------------------+------------+
+|wrong-import-order             |10          |
++-------------------------------+------------+
+|too-many-branches              |10          |
++-------------------------------+------------+
+|superfluous-parens             |10          |
++-------------------------------+------------+
+|too-many-lines                 |8           |
++-------------------------------+------------+
+|bad-continuation               |8           |
++-------------------------------+------------+
+|no-name-in-module              |7           |
++-------------------------------+------------+
+|expression-not-assigned        |7           |
++-------------------------------+------------+
+|duplicate-code                 |7           |
++-------------------------------+------------+
+|too-many-return-statements     |6           |
++-------------------------------+------------+
+|too-many-instance-attributes   |6           |
++-------------------------------+------------+
+|broad-except                   |5           |
++-------------------------------+------------+
+|unneeded-not                   |4           |
++-------------------------------+------------+
+|too-many-statements            |4           |
++-------------------------------+------------+
+|fixme                          |4           |
++-------------------------------+------------+
+|ungrouped-imports              |3           |
++-------------------------------+------------+
+|too-many-arguments             |3           |
++-------------------------------+------------+
+|super-init-not-called          |3           |
++-------------------------------+------------+
+|redefined-outer-name           |3           |
++-------------------------------+------------+
+|wildcard-import                |2           |
++-------------------------------+------------+
+|too-many-nested-blocks         |2           |
++-------------------------------+------------+
+|redefined-variable-type        |2           |
++-------------------------------+------------+
+|bad-builtin                    |2           |
++-------------------------------+------------+
+|arguments-differ               |2           |
++-------------------------------+------------+
+|abstract-method                |2           |
++-------------------------------+------------+
+|unsupported-membership-test    |1           |
++-------------------------------+------------+
+|unsubscriptable-object         |1           |
++-------------------------------+------------+
+|pointless-string-statement     |1           |
++-------------------------------+------------+
+|parse-error                    |1           |
++-------------------------------+------------+
+|not-callable                   |1           |
++-------------------------------+------------+
+|non-parent-init-called         |1           |
++-------------------------------+------------+
+|no-self-argument               |1           |
++-------------------------------+------------+
+|method-hidden                  |1           |
++-------------------------------+------------+
+|dangerous-default-value        |1           |
++-------------------------------+------------+
+|consider-using-enumerate       |1           |
++-------------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 9.18/10 (previous run: 9.18/10, +0.00)
+
